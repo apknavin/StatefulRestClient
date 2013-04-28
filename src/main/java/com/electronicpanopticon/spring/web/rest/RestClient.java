@@ -1,3 +1,6 @@
+/*
+ * LICENSE: http://creativecommons.org/licenses/by-sa/3.0/
+ */
 package com.electronicpanopticon.spring.web.rest;
 
 import java.net.URI;
@@ -12,6 +15,7 @@ import com.google.common.base.Strings;
 /**
  * A sample class to represent a rest client so that you can call into an app secured with spring security.
  * 
+ * @author <a href="http://stackoverflow.com/users/438319/ams">ams</a>
  * @see <a href="http://stackoverflow.com/a/11688712/1245251">Spring Security
  *      Authentication using RestTemplate</a>
  */

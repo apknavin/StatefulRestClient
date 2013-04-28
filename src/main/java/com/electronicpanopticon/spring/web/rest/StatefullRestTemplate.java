@@ -1,3 +1,6 @@
+/*
+ * LICENSE: http://creativecommons.org/licenses/by-sa/3.0/
+ */
 package com.electronicpanopticon.spring.web.rest;
 
 import org.apache.http.client.CookieStore;
@@ -13,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
  * Statefull Rest template that you can use to remember cookies, once you log in
  * with it will remember the JSESSIONID and sent it on subsequent requests.
  * 
+ * @author <a href="http://stackoverflow.com/users/438319/ams">ams</a>
  * @see <a href="http://stackoverflow.com/a/11688712/1245251">Spring Security
  *      Authentication using RestTemplate</a>
  */

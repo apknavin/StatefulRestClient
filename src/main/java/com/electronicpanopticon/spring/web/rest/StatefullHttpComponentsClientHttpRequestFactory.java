@@ -1,3 +1,6 @@
+/*
+ * LICENSE: http://creativecommons.org/licenses/by-sa/3.0/
+ */
 package com.electronicpanopticon.spring.web.rest;
 
 import java.net.URI;
@@ -11,6 +14,7 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
  * Factory class which setups up the HttpComponents context to be the same on
  * every request with the RestTemplate.
  * 
+ * @author <a href="http://stackoverflow.com/users/438319/ams">ams</a>
  * @see <a href="http://stackoverflow.com/a/11688712/1245251">Spring Security
  *      Authentication using RestTemplate</a>
  */
